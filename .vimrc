@@ -250,8 +250,16 @@ let g:tabman_focus  = 'tf'
 let g:AutoClosePumvisible = {"ENTER": "\<C-Y>", "ESC": "\<ESC>"}
 
 """" Airline
-let g:airline_powerline_fonts = 0
+let g:airline_powerline_fonts = 1
 let g:airline_theme = 'bubblegum'
+"let g:airline_theme = 'dark'
+"let g:airline_theme = 'light'
+"let g:airline_theme = 'solarized'
+"let g:airline_theme = 'behelit'
+"let g:airline_theme = 'base16'
+"let g:airline_theme = 'durant'
+"let g:airline_theme = 'powerlineish'
+"let g:airline_theme = 'luna'
 let g:airline#extensions#whitespace#enabled = 0
 
 """"""""""""""""""""""""""""""""""""""""""""""""""
@@ -333,6 +341,10 @@ nmap <leader>e :Errors<CR>
 """" Jedi-vim
 " Go to definition in new tab
 "nmap ,D :tab split<CR>:call jedi#goto()<CR>
+
+"""" recovery
+" control-r to cr    20181202 garyhsieh
+nmap cr <C-R>
 
 """" DragVisuals
 " mappings to move blocks in 4 directions
