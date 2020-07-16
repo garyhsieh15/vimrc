@@ -3,6 +3,7 @@
 "
 " Copyright 2018 Gary Hsieh vimrc configuration
 " Date 20190331
+" data 20200717
 " --------------------------------------------------------------------
 
 " Setting up Vundle - the vim plugin bundler
