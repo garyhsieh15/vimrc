@@ -61,7 +61,8 @@ hi CursorLine       term=none       cterm=none ctermfg=none ctermbg=236 gui=none
 hi clear ColorColumn
 hi link ColorColumn CursorLine
 hi MatchParen       term=reverse    cterm=none ctermfg=0 ctermbg=208 gui=bold guifg=#000000 guibg=#ff8700
-hi Comment          term=none       cterm=none ctermfg=150 ctermbg=none gui=none guifg=#afd787 guibg=none
+" hi Comment          term=none       cterm=none ctermfg=150 ctermbg=none gui=none guifg=#afd787 guibg=none
+hi Comment          term=none       cterm=none ctermfg=149 ctermbg=none gui=none guifg=#afd787 guibg=none
 " hi Comment          term=none       cterm=none ctermfg=148 ctermbg=none gui=none guifg=#afd787 guibg=none
 " hi Comment          term=none       cterm=none ctermfg=230 ctermbg=233 gui=none guifg=#afd787 guibg=none
 hi Constant         term=none       cterm=bold ctermfg=91 ctermbg=none gui=bold guifg=#8700af guibg=none
@@ -90,7 +91,8 @@ hi Todo             term=standout   cterm=standout ctermfg=0 ctermbg=11 gui=stan
 " - Press ? for help
 " hi String           term=none       cterm=none ctermfg=148 ctermbg=none gui=none guifg=#afd700 guibg=none
 " hi String           term=none       cterm=none ctermfg=230 ctermbg=none gui=none guifg=#afd700 guibg=none
-hi String           term=none       cterm=none ctermfg=150 ctermbg=none gui=none guifg=#afd700 guibg=none
+" hi String           term=none       cterm=none ctermfg=150 ctermbg=none gui=none guifg=#afd700 guibg=none
+hi String           term=none       cterm=none ctermfg=149 ctermbg=none gui=none guifg=#afd700 guibg=none
 hi Character        term=none       cterm=none ctermfg=230 ctermbg=none gui=none guifg=#ffff87 guibg=none
 " hi Number         ctermfg=129 guifg=#af00ff
 " hi Number           term=none       cterm=none ctermfg=230 ctermbg=233 gui=none guifg=#ffffd7 guibg=#121212
@@ -119,7 +121,8 @@ hi Exception        term=bold       cterm=bold ctermfg=106 ctermbg=none gui=bold
 " - import
 " hi Include        ctermfg=255 guifg=#eeeeee
 " hi Include          term=none       cterm=none ctermfg=116 ctermbg=none gui=none guifg=#87d7d7 guibg=none
-hi Include          term=none       cterm=none ctermfg=81 ctermbg=none gui=none guifg=#87d7d7 guibg=none
+" hi Include          term=none       cterm=none ctermfg=81 ctermbg=none gui=none guifg=#87d7d7 guibg=none
+hi Include          term=none       cterm=none ctermfg=220 ctermbg=none gui=none guifg=#87d7d7 guibg=none
 " hi Include          term=none       cterm=none ctermfg=45 ctermbg=none gui=none guifg=#00d7ff guibg=none
 hi Define           term=bold       cterm=bold ctermfg=124 ctermbg=none gui=bold guifg=#af0000 guibg=none
 hi Macro            term=none       cterm=none ctermfg=186 ctermbg=none gui=none guifg=#d7d787 guibg=none
