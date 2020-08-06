@@ -29,6 +29,7 @@ Plug 'flazz/vim-colorschemes'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
+Plug 'tpope/vim-fugitive'
 
 call plug#end()
 
@@ -94,6 +95,11 @@ noremap <c-h> <c-w><c-h>
 noremap <c-j> <c-w><c-j>
 noremap <c-k> <c-w><c-k>
 noremap <c-l> <c-w><c-l>
+
+" tnoremap <c-h> <c-w><c-h>
+" tnoremap <c-j> <c-w><c-j>
+" tnoremap <c-k> <c-w><c-k>
+" tnoremap <c-l> <c-w><c-l>
 
 " search --------------------------------------------------------------------------------
 
