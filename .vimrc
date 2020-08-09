@@ -68,6 +68,8 @@ set display+=lastline                   " long txt beautiful show.
 
 set ruler                               " lower right display info.
 
+set scrolloff=3                         " keep cursor 3 lines away form screen border
+
 " view ----------------------------------------------------------------------------------
 " package: vim-airline setting
 
