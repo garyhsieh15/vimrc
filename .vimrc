@@ -8,11 +8,22 @@ syntax on                               " Enable syntax highlighting.
 filetype plugin indent on               " Enable file type based indentation.
 
 " Install vim-plug if it's not already installed (Unix-only).
-if empty(glob('~/.vim/autoload/plug.vim'))
-  silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs 
-    \ https://raw.github.com/junegunn/vim-plug/master/plug.vim
+"if empty(glob('~/.vim/autoload/plug.vim'))
+"  silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs 
+"    \ https://raw.github.com/junegunn/vim-plug/master/plug.vim
+"  autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
+"endif
+
+" Download and install vim-plug (cross platform).
+if empty(glob(
+    \ '$HOME/' . (has('win32') ? 'vimfiles' : '.vim') . '/autoload/plug.vim'))
+  execute '!curl -fLo ' .
+    \ (has('win32') ? '\%USERPROFILE\%/vimfiles' : '$HOME/.vim') . 
+    \ '/autoload/plug.vim --create-dirs ' .
+    \ 'https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
   autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
+
 
 " set th runtimepath to include autoload initialize
 " set rtp+=~/.vim/autoload/
